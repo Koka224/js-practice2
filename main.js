@@ -18,7 +18,12 @@
 // }
 // console.log(multiplication(6));
 // 3) Сделайте функцию, которая возвращает сумму двух чисел.
-function sum(a, b) {
-  return a + b;
+// function sum(a, b) {
+//   return a + b;
+// }
+// console.log(sum(5, 5));
+// 4) Сделайте функцию, которая отнимает от первого числа второе и делит на третье.
+function divis(a, b, c) {
+  return a - b / c;
 }
-console.log(sum(5, 5));
+console.log(divis(2, 5, 9));
