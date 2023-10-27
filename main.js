@@ -4,11 +4,16 @@
 // аргументы.
 // С помощью только этих двух функций вычислите следующее
 // несложное выражение: 36325 * 9824 + 777
-function add(a, b) {
-  return a + b;
+// function add(a, b) {
+//   return a + b;
+// }
+// function multiply(a, b) {
+//   return a * b;
+// }
+// const res = multiply((a = 36325), (b = 9825));
+// console.log(add(res, (b = 777)));
+// 2) Сделайте функцию, которая возвращает квадрат числа. Число передается параметром.
+function multiplication(a) {
+  return a ** 2;
 }
-function multiply(a, b) {
-  return a * b;
-}
-const res = multiply((a = 36325), (b = 9825));
-console.log(add(res, (b = 777)));
+console.log(multiplication(6));
