@@ -13,7 +13,12 @@
 // const res = multiply((a = 36325), (b = 9825));
 // console.log(add(res, (b = 777)));
 // 2) Сделайте функцию, которая возвращает квадрат числа. Число передается параметром.
-function multiplication(a) {
-  return a ** 2;
+// function multiplication(a) {
+//   return a ** 2;
+// }
+// console.log(multiplication(6));
+// 3) Сделайте функцию, которая возвращает сумму двух чисел.
+function sum(a, b) {
+  return a + b;
 }
-console.log(multiplication(6));
+console.log(sum(5, 5));
