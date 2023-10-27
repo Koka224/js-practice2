@@ -23,7 +23,29 @@
 // }
 // console.log(sum(5, 5));
 // 4) Сделайте функцию, которая отнимает от первого числа второе и делит на третье.
-function divis(a, b, c) {
-  return a - b / c;
+// function divis(a, b, c) {
+//   return a - b / c;
+// }
+// console.log(divis(2, 5, 9));
+// 5) Сделайте функцию, которая принимает параметром число от 1 до 7, а возвращает день недели на русском языке.
+function week(day) {
+  switch (day) {
+    case 1:
+      return "Понедельник";
+    case 2:
+      return "Вторник";
+    case 3:
+      return "Среда";
+    case 4:
+      return "Четверг";
+    case 5:
+      return "Пятница";
+    case 6:
+      return "Суббота";
+    case 7:
+      return "Воскресенье";
+    default:
+      return "В неделю только 7 дней";
+  }
 }
-console.log(divis(2, 5, 9));
+console.log(week(1));
